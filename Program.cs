@@ -35,7 +35,7 @@ namespace Hangman
 
                 var selectedCapitalIndex = random.Next(0, countryCapitals.Count - 1);
                 var wordToGuess = countryCapitals[selectedCapitalIndex].capital;
-                Console.WriteLine("SELECTED CAPITAL: " + wordToGuess + " - HIDE THIS LATER");
+                //Console.WriteLine("SELECTED CAPITAL: " + wordToGuess);
 
                 stopwatch.Reset();
                 stopwatch.Start();
